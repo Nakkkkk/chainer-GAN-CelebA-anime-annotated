@@ -43,19 +43,21 @@ $ python inference.py
 
 # 結果
 
-＜成功例？＞
+＜成功例？＞  
 アニメ画像
 ![in_image](https://user-images.githubusercontent.com/38216393/70388800-e94e5f00-19f9-11ea-8ef8-11879148081c.png)
 人間画像
 ![out_image](https://user-images.githubusercontent.com/38216393/70388802-eeaba980-19f9-11ea-8c40-6dbdc878474e.png)
+  
 
 顔の向き、金髪（ほんのりピンク）、性別といった特徴において、アニメと人間がよく一致していた。
 
-＜失敗例？＞
+＜失敗例？＞  
 アニメ画像
 ![in_image](https://user-images.githubusercontent.com/38216393/70388804-f5d2b780-19f9-11ea-8e25-430ef90f1c5f.png)
 人間画像
 ![out_image](https://user-images.githubusercontent.com/38216393/70388805-fa976b80-19f9-11ea-9c20-4ec060fd2d57.png)
+  
 
 前髪の形が似ている。しかし、アニメキャラに影が入った影響で人間は黒髪の模様。
 
