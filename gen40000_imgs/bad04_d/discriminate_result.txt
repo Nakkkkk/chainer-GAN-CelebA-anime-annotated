@@ -1,0 +1,6 @@
+### standard_annotation_type ###
+['Bags_Under_Eyes', 'Bangs', 'Black_Hair', 'Blond_Hair', 'Brown_Hair', 'Eyeglasses', 'Gray_Hair', 'Male', 'Narrow_Eyes', 'Straight_Hair', 'Wavy_Hair']
+
+x = [[ 3.00062466 -0.37788084  0.2279474  -0.29914466 -0.24738145 -0.30697864
+  -0.49966213 -0.60779494 -0.25807467 -0.36139688 -0.02785708  0.08789947]]
+
