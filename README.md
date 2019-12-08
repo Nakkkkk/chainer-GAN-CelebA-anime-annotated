@@ -42,7 +42,6 @@ $ python inference.py
 ```
 
 # 結果
-``` sh
 
 ＜成功例？＞
 アニメ画像
@@ -59,8 +58,6 @@ $ python inference.py
 ![out_image](https://user-images.githubusercontent.com/38216393/70388805-fa976b80-19f9-11ea-9c20-4ec060fd2d57.png)
 
 前髪の形が似ている。しかし、アニメキャラに影が入った影響で人間は黒髪の模様。
-
-```
 
 
 # 反省点
