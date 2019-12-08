@@ -15,7 +15,10 @@ https://github.com/xkumiyu/chainer-GAN-CelebA
 アニメの人間画像→リアルの人間画像
 を、作った。
 
-普通のGANの入力をノイズからアニメ画像に変更した。モード崩壊を防ぐためにMinibatch_Discriminationが有効だった。
+普通のGANの入力をノイズからアニメ画像に変更した。
+GeneratorはAutoencoder様のネットワーク構造にした。
+Discriminatorは人間っぽさだけでなく、入力画像アノテーションの判別を行う。
+
 学習時間はだいたい５時間（500epoch, gtx1080_8GB）。
 
 趣味用なので、パスとかめちゃくちゃです。
@@ -70,5 +73,6 @@ $ python inference.py
 ・アノテーションの効果は微妙。
 ・アニメ画像に影とかが加わって暗くなると、生成画像は黒・茶髪の人が生成されやすい。
 ・CycleGANとか使いたいなー。
+・モード崩壊を防ぐためにMinibatch_Discriminationが有効だった。
 
 ```
